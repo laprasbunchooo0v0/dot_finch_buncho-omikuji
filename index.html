@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>文鳥おみくじ</title>
+  <meta property="og:title" content="文鳥おみくじ" />
+  <meta property="og:description" content="NFCでひらく、1日の運勢。" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/ogp.png" />
+  <meta name="theme-color" content="#ffffff" />
+  <style>
+    :root { --app-font: system-ui, -apple-system, "Segoe UI", "Noto Sans JP", sans-serif; }
+    .use-custom-font { font-family: var(--app-font); }
+  </style>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="use-custom-font">
+  <header class="app-header">
+    <div class="header-inner">
+      <div class="brand">文鳥おみくじ</div>
+      <nav class="social">
+        <a href="https://x.com/dotfinch_info/" target="_blank" rel="noopener" aria-label="X">
+          <img src="assets/icons/x.svg" alt="X" />
+        </a>
+        <a href="https://www.instagram.com/dotfinch/" target="_blank" rel="noopener" aria-label="Instagram">
+          <img src="assets/icons/instagram.svg" alt="Instagram" />
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="app">
+    <!-- ① 表紙 -->
+    <section id="scene-cover" class="scene visible">
+      <img src="assets/cover.png" alt="表紙" class="cover-img" />
+    </section>
+
+    <!-- ② おみくじを引くGIF -->
+    <section id="scene-draw" class="scene">
+      <img src="assets/draw.gif" alt="おみくじを引くアニメーション" class="draw-gif" />
+    </section>
+
+    <!-- ③ 結果 -->
+    <section id="scene-result" class="scene">
+      <div class="result-card">
+        <div class="result-date" id="res-date"></div>
+        <div class="result-tier" id="res-tier"></div>
+        <div class="result-name" id="res-name"></div>
+        <div class="result-image-wrap">
+          <img id="res-image" alt="結果イラスト" />
+        </div>
+        <p class="result-message" id="res-message"></p>
+
+        <div class="share-area">
+          <button id="btn-share" class="btn primary">共有する</button>
+          <small class="share-note">※InstagramはWeb経由で画像同梱共有ができません（ガイド表示）。</small>
+        </div>
+      </div>
+    </section>
+
+    <!-- エラー表示 -->
+    <div id="error-bar" class="error-bar" role="alert" hidden></div>
+  </main>
+
+  <footer class="app-footer">
+    <div class="footer-inner">
+      <span>(C) dot finch</span>
+    </div>
+  </footer>
+
+  <!-- 共有アクションシート -->
+  <dialog id="share-dialog" class="sheet">
+    <h3>共有先を選択</h3>
+    <div class="sheet-actions">
+      <button data-action="system" class="btn wide">端末の共有パネル（推奨）</button>
+      <button data-action="x" class="btn wide">X で投稿</button>
+      <button data-action="line" class="btn wide">LINE で送る</button>
+      <button data-action="instagram" class="btn wide">Instagram に投稿（ガイド）</button>
+    </div>
+    <form method="dialog"><button class="btn">閉じる</button></form>
+  </dialog>
+
+  <!-- Instagramガイド -->
+  <dialog id="ig-dialog">
+    <h3>Instagramへの投稿方法</h3>
+    <ol>
+      <li>共有アクションで「端末の共有パネル」を使い、画像を保存できる場合は保存。</li>
+      <li>Instagramアプリを開いて新規投稿で保存した画像を選択。</li>
+      <li>キャプションにサイトのURLを記載（またはプロフィールにリンク設置）。</li>
+    </ol>
+    <form method="dialog"><button class="btn">閉じる</button></form>
+  </dialog>
+
+  <script src="js/app.js" defer></script>
+</body>
+</html>

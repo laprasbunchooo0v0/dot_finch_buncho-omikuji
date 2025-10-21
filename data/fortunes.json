@@ -1,0 +1,164 @@
+{
+  "超大吉": [
+    {
+      "name": "ごきげん文鳥",
+      "images": ["assets/chodaikichi/gokigen_01.png", "assets/chodaikichi/gokigen_02.png"],
+      "messages": ["朝から追い風、思い切って羽ばたこう！", "笑顔を配ると、運気も一緒に増えるよ。"]
+    },
+    {
+      "name": "ぴょんぴょん文鳥",
+      "images": ["assets/chodaikichi/pyonpyon_01.png"],
+      "messages": ["足取り軽く、良いニュースが飛び込む日。", "迷ったら一歩前へ、弾む心でOK。"]
+    },
+    {
+      "name": "お祭り文鳥",
+      "images": ["assets/chodaikichi/omatsuri_01.png"],
+      "messages": ["今日は主役。ちょっと派手なくらいがちょうどいい。", "仲間と喜びを分かち合うとさらに吉。"]
+    },
+    {
+      "name": "きらめき文鳥",
+      "images": ["assets/chodaikichi/kirameki_01.png"],
+      "messages": ["ひらめきが光る瞬間あり。すぐメモしよう。", "新しい挑戦に追い風、まずは小さく着手。"]
+    },
+    {
+      "name": "つばさ全開文鳥",
+      "images": ["assets/chodaikichi/fullwing_01.png"],
+      "messages": ["遠くまで飛べる日。高めの目標も狙える！", "堂々といこう、自信が運を呼ぶ。"]
+    }
+  ],
+  "大吉": [
+    {
+      "name": "もちもち文鳥",
+      "images": ["assets/daikichi/mochi_01.png", "assets/daikichi/mochi_02.png"],
+      "messages": ["やさしさを配ると二倍になって返ってくる。", "温かい飲み物でひと息、運気もまろやか。"]
+    },
+    {
+      "name": "幸せ文鳥",
+      "images": ["assets/daikichi/shiawase_01.png"],
+      "messages": ["小さな幸せの連鎖がはじまる予感。", "感謝の一言が思わぬご褒美に。"]
+    },
+    {
+      "name": "ほっこり文鳥",
+      "images": ["assets/daikichi/hokkori_01.png"],
+      "messages": ["安心できる場所が力をくれる日。", "深呼吸で肩の力を抜けば、全部うまくいく。"]
+    },
+    {
+      "name": "日向ぼっこ文鳥",
+      "images": ["assets/daikichi/hinata_01.png"],
+      "messages": ["光の当たる方へ、自然と道が開けるよ。", "短い休憩が集中力を取り戻してくれる。"]
+    },
+    {
+      "name": "金色くちばし文鳥",
+      "images": ["assets/daikichi/goldbeak_01.png"],
+      "messages": ["チャンスを逃さない鋭さが冴える。", "思い切った一言が評価につながる。"]
+    }
+  ],
+  "吉": [
+    {
+      "name": "すやすや文鳥",
+      "images": ["assets/kichi/suya_01.png"],
+      "messages": ["よく眠れば運も整う。今日はペースを大事に。", "無理なく続けることで実を結ぶ日。"]
+    },
+    {
+      "name": "のんびり文鳥",
+      "images": ["assets/kichi/nonbiri_01.png"],
+      "messages": ["焦らずいこう、目的地にはちゃんと着く。", "ゆっくりでも確実に、一歩ずつ。"]
+    },
+    {
+      "name": "きょとん文鳥",
+      "images": ["assets/kichi/kyoton_01.png"],
+      "messages": ["意外な発見がありそう。まずは首をかしげて観察。", "わからないを楽しめば、学びが増える。"]
+    },
+    {
+      "name": "うとうと文鳥",
+      "images": ["assets/kichi/utouto_01.png"],
+      "messages": ["短い仮眠で頭が冴える。効率アップの鍵。", "睡眠の質が運気アップの近道。"]
+    },
+    {
+      "name": "お散歩文鳥",
+      "images": ["assets/kichi/osanpo_01.png"],
+      "messages": ["外の空気がヒントを運ぶ日。少し歩いてみよう。", "景色を変えると気分転換に。"]
+    }
+  ],
+  "小吉": [
+    {
+      "name": "つんつん文鳥",
+      "images": ["assets/shokichi/tsun_01.png"],
+      "messages": ["言葉はやわらかく、気持ちはまっすぐに。", "丁寧さが味方を増やす。"]
+    },
+    {
+      "name": "おやつ待ち文鳥",
+      "images": ["assets/shokichi/oyatsu_01.png"],
+      "messages": ["ご褒美を決めて頑張れば、楽しみが倍増。", "小さな楽しみがエネルギーに変わる。"]
+    },
+    {
+      "name": "ツンデレ文鳥",
+      "images": ["assets/shokichi/tsundere_01.png"],
+      "messages": ["素直なひと言が関係をやわらかくする。", "照れずに感謝を伝えると吉。"]
+    },
+    {
+      "name": "こっそり文鳥",
+      "images": ["assets/shokichi/kossori_01.png"],
+      "messages": ["静かに進めるほど成果が光る日。", "準備を整えてから一気にいこう。"]
+    },
+    {
+      "name": "ふわふわ文鳥",
+      "images": ["assets/shokichi/fuwafuwa_01.png"],
+      "messages": ["やさしい選択が幸運を呼ぶ。", "周りのペースに合わせると調和が生まれる。"]
+    }
+  ],
+  "末吉": [
+    {
+      "name": "ふて寝文鳥",
+      "images": ["assets/suekichi/futene_01.png"],
+      "messages": ["休む勇気も前進の一歩。", "短い休憩で気分を切り替えよう。"]
+    },
+    {
+      "name": "気まぐれ文鳥",
+      "images": ["assets/suekichi/kimagure_01.png"],
+      "messages": ["直感を信じて小さく試そう。", "予定に遊びを入れると流れが良くなる。"]
+    },
+    {
+      "name": "ぴよぴよ文鳥",
+      "images": ["assets/suekichi/piyopiyo_01.png"],
+      "messages": ["小さな声にも耳を澄ませて。", "まずは基本に立ち返ると整う。"]
+    },
+    {
+      "name": "雨宿り文鳥",
+      "images": ["assets/suekichi/amayadori_01.png"],
+      "messages": ["今日は無理せず安全第一で。", "嵐は長く続かない、落ち着いて待とう。"]
+    },
+    {
+      "name": "そっと文鳥",
+      "images": ["assets/suekichi/sotto_01.png"],
+      "messages": ["控えめな行動が思わぬ好印象に。", "陰で支えると良い縁がつながる。"]
+    }
+  ],
+  "凶": [
+    {
+      "name": "おこ文鳥",
+      "images": ["assets/kyou/oko_01.png"],
+      "messages": ["深呼吸でリセット、ゆっくり整えよう。", "反射で動かず、一拍置くと好転する。"]
+    },
+    {
+      "name": "羽抜け文鳥",
+      "images": ["assets/kyou/hanenuke_01.png"],
+      "messages": ["メンテナンスの日。無理せず整備に専念。", "今日は温存、明日のための準備運動。"]
+    },
+    {
+      "name": "にらみ文鳥",
+      "images": ["assets/kyou/nirami_01.png"],
+      "messages": ["視点を変えれば優しくなれる。", "相手の立場で考えると道が見える。"]
+    },
+    {
+      "name": "迷子文鳥",
+      "images": ["assets/kyou/maigo_01.png"],
+      "messages": ["焦らず現在地を確認、地図を開こう。", "助けを求めることも勇気。"]
+    },
+    {
+      "name": "さみしがり文鳥",
+      "images": ["assets/kyou/samishigari_01.png"],
+      "messages": ["温かいメッセージを一通送ってみよう。", "好きな香りや音楽で心を温めよう。"]
+    }
+  ]
+}
